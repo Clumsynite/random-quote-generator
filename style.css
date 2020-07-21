@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Revalia&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
+#quotes {
+font-family: 'Revalia', cursive;
+}
+#app {
+  text-align: center;
+}
+#quote-box {
+   display: inline-block;
+  margin: 10% 20%;
+  padding: 10px 30px 20px 30px;
+  border-radius: 10px;
+  background-color: white;
+  width: 50%;
+  height: auto;
+}
+#text {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-family: 'Quicksand', sans-serif;
+}
+#author {
+  display: block;
+  float: right;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+button:focus {
+  outline: none;
+  border: none;
+}
+button:active {
+  opacity: 0.75;
+}
+#btns {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+#new-quote {
+  margin-top: 20px;
+  font-size: 18px;
+   align-self: flex-end;
+}
+#tweet-quote {
+   align-self: flex-start;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px;
+}
+#contact {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-family: 'Kalam', cursive;
+}
+.link {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
